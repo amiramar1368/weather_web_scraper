@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('font/Vazir.woff2') format('woff2'),
+        url('font/Vazir.woff') format('woff');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: "Vazir";
+    font-size: 20px;
+}
+
+#main{
+    width: 800px;
+    /* height: 200px; */
+    background-color: #048;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+#cities{
+    display: flex;
+    justify-content: center;
+
+}
+
+button{
+    width: 150px;
+    height: 2.5em;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: beige;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 0 0 10px inset rgb(31, 29, 29);
+}
+
+#data{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-image: linear-gradient(rgb(0, 68, 136),rgb(247, 115, 115));
+    height: 100%;
+    flex-grow: 1;
+
+}
+
+#data div {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    height: 30px;
+}
+label{
+    padding: 10px;
+}
+.active{
+    background-color: rgb(4, 0, 7);
+    color: white;
+    font-weight: bold;
+}
